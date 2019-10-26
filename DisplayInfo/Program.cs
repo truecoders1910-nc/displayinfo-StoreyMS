@@ -6,6 +6,12 @@ namespace DisplayInfo
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter your first and last name");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello {name}, Please enter your favorite number");
+            Console.ReadLine();
+            Console.WriteLine("Thank you");
+
             // Get first and last name from user input
             // Get their favorite number
             // Get their favorite animal
